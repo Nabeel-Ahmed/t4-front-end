@@ -4,7 +4,7 @@
   top: 130px;
   height: 900px;
   width: 90%;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .needs-container {
@@ -12,7 +12,7 @@
   /* height: 699px; */
   width: 861px;
   height: 718px;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   /* background-color: rgba(196, 196, 196, 0.12); */
 }
 
