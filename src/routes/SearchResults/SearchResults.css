@@ -1,0 +1,30 @@
+.left-panel {
+    max-width: 700px;
+    min-height: 900px;
+    /* border: 5px solid red; */
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+img {
+    width: 100%
+
+}
+
+.filter-paper {
+    margin-top: 20px;
+    height: 331px;
+}
+
+.checkboxes {
+    /* width: 100; */
+    /* border: 5px solid red; */
+}
+
+.right-panel {
+    /* border: 5px solid red; */
+    margin-top: 200px;
+    margin-left: 200px;
+    min-width: 1000px;
+
+}
