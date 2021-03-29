@@ -36,12 +36,13 @@ export default function SearchResults() {
         setValue(event.target.value);
     };
 
-    const handleKeyDown = (event) => {
-        if (event.keyCode === 13) {
-            console.log('yes')
-            //   handleSubmit()
-        }
-    }
+    // const handleKeyDown = (event) => {
+    //     if (event.keyCode === 13) {
+    //         console.log('yes')
+    //         //   handleSubmit()
+    //     }
+    // }
+
     return (
         <div className={classes.root}>
             <div className={"left-panel"}>
@@ -50,10 +51,11 @@ export default function SearchResults() {
                 id="outlined-search"
                 label="Search field"
                 value={value}
+                // onKeyDown={handleKeyDown}
                 type="search" variant="outlined" />
             <TextField />
 
-                <img className={"map"} src="https://miro.medium.com/max/4064/1*qYUvh-EtES8dtgKiBRiLsA.png" />
+                <img className={"map"} alt="map " src="https://miro.medium.com/max/4064/1*qYUvh-EtES8dtgKiBRiLsA.png" />
                 <Paper className={"filter-paper"}>
                     <Typography id="discrete-slider" gutterBottom>
                         Distance

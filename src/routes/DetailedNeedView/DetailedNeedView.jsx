@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom"
 
 // Components
 import Card from "@material-ui/core/Card";
-import { CardContent, Typography, Button, Modal, Paper } from "@material-ui/core";
+import { CardContent, Typography, Button, Modal} from "@material-ui/core";
 import { DataGrid } from '@material-ui/data-grid';
 // import Card from '@material-ui/core/Card';
 

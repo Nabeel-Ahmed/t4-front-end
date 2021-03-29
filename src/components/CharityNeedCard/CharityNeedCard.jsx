@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom"
 
 // Components
 import Card from '@material-ui/core/Card'
-import { Button, Paper, CardContent, CardMedia, ThemeProvider, Typography } from '@material-ui/core'
+import { Button, CardContent, Typography } from '@material-ui/core'
 import Crisis from './crisis.jpg'
 
 
@@ -68,7 +68,7 @@ export default function CharityNeedCard() {
             <Card className={classes.card}>
                 {/* <Paper elevation={3} className={classes.profilePic}/> */}
                 <div className={classes.piclogo}>
-                    <img src={Crisis}/>
+                    <img src={Crisis} alt="logo"/>
                 </div>
                 <CardContent>
                     <Typography variant="h5" component="h2">
@@ -83,8 +83,3 @@ export default function CharityNeedCard() {
         </div>
     )
 }
-{/* <CardMedia
-className={classes.cover}
-image="/static/images/cards/live-from-space.jpg"
-title="Live from space album cover"
-/> */}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { useHistory } from "react-router-dom"
 
 // Styles
@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
 function CharityBox(props) {
   return (
     <div className={"box"}>
-      <img className={"charlogo"} src={props.charlogo} />
+      <img className={"charlogo"} alt="logo" src={props.charlogo} />
       <div className={"char-title"}>
       <Typography variant="h5"> {props.name}</Typography>
       </div>
@@ -95,10 +95,10 @@ export default function LandingPage() {
   return (
     <div className={classes.root}>
       <div className={"logo"}>
-        <img src={GivtLogo} />
+        <img src={GivtLogo} alt="logo"/>
       </div>
       <div className={"text"}>
-        <img src={GivtText} />
+        <img src={GivtText} alt="logo"/>
       </div>
       <div className={"searchArea"}>
         <Typography variant="h3"> Find out what your local charity needs to combat homelessness</Typography>
@@ -130,7 +130,7 @@ export default function LandingPage() {
       </div>
         
         <div className={"running"}>
-          <img src={Running} />
+          <img src={Running} alt="svg" />
         </div>
 
       </div>

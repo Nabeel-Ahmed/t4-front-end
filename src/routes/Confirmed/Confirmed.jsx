@@ -24,7 +24,7 @@ export default function confirmed() {
             <Typography variant="body 1"> Call us in case you face an issue with our services 033 456 731 </Typography>
              </div>
              <div className={"map-box"}>
-                 <img src={Map}/>
+                 <img src={Map} alt="map"/>
              </div>
         </div>
     )
